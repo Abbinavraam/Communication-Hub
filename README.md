@@ -1,12 +1,31 @@
-# React + Vite
+# 📌 CommunionHub - Event Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo**: [Communication Hub](https://communication-hub-two.vercel.app/)
 
-Currently, two official plugins are available:
+## 📖 Project Overview
+The **CommunionHub** is a simple yet interactive **React web application** that enables users to explore, filter, and add events. It serves as a platform for connecting individuals across different faiths and interests through community-driven events.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Home Page (Landing Page)**
+- Welcome message and introduction about CommunionHub.
+- Hero section with a **call-to-action button** directing users to the Events page.
+- Responsive **navigation bar** with links to Home, Events, and About pages.
+
+✅ **Events Page**
+- Displays a list of events with details: **title, date, location, category, and description**.
+- Users can **filter events** based on category (Religious, Social, Charity).
+- Simple **form to add new events** dynamically.
+- Fully **responsive design** for seamless browsing on all devices.
+
+---
+
+## 🛠️ Technologies Used
+- **React.js** – Frontend framework
+- **React Router** – For navigation
+- **CSS (styles.css)** – Custom styling for a professional UI
+- **Vercel** – Deployment platform
+
+---
